@@ -29,7 +29,7 @@ for f in onlyfiles:
     with open(os.path.join(path, f), 'r') as fd:
         jsonObj = json.load(fd)
         realJson = jsonObj[0]
-        if "grobid:header_Title" in realJson:
+        if "grobid:header_Class" in realJson:
             numGrobid += 1
         else:
             noGrobidFiles.append(os.path.join(path, f))
