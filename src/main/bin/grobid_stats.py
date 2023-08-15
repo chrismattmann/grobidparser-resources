@@ -36,7 +36,7 @@ for f in onlyfiles:
 
         numFiles += 1
 
-print "Done processing."
-print "Num Grobid: ["+str(numGrobid)+"]"
-print "Num Files: ["+str(numFiles)+"]"
-print "No Grobid: "+str(noGrobidFiles)
+print("Done processing.")
+print("Num Grobid: ["+str(numGrobid)+"]")
+print("Num Files: ["+str(numFiles)+"]")
+print("No Grobid: "+str(noGrobidFiles))
